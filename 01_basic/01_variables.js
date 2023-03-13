@@ -7,7 +7,7 @@ let accountState;
 //if we declare the variable without giving value, then js takes its value to be 'undefined' 
 
 
-// accountId = 2 // not allowed
+// accountId = 2 // not allowed becz we declare with const
 
 accountEmail = "pathak@anubhav.com"
 accountPassward = "213567"
@@ -16,9 +16,11 @@ accountCity = "Bihar"
 console.log(accountId);
 
 /*
-prefer not to use var
+prefer not to use 'var'
 because of issue in block scope and fuctional scope
 */
 
 
 console.table([accountEmail, accountId, accountPassward, accountCity, accountState])
+
+// with this we print whole data in tabular form
