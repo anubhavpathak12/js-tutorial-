@@ -1,3 +1,10 @@
+// **************** Ternery operator ******************
+let age = 15;
+let check = (age>=18)? 'I can Vote' : 'Can not vote'
+console.log(check);
+
+
+/*******************Conditional statement************** */
 // if statement 
 
 let marks = 98;
@@ -33,9 +40,22 @@ switch (num) {
 
 
 //while case
-var value = 1;
-while(value >= 0) {
+let value = 1;  
+while(value <= 5) {
     console.log(value);
     value = value + 1;
-
 }
+
+
+//do-while loop
+
+let number = 1;
+do {   
+    number *= 2; 
+    // console.log(number) //it print in different line
+
+    process.stdout.write(number + ", "); // by doing this value print in single line it works only with nodejs like 2, 4, 8, 16,
+
+}while(number<=10)
+
+
