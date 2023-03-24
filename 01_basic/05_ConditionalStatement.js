@@ -59,3 +59,9 @@ do {
 }while(number<=10)
 
 
+//for loop
+console.log();
+for(let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
