@@ -65,3 +65,38 @@ for(let i = 1; i <= 5; i++) {
     console.log(i);
 }
 
+
+// for-in loop
+const obj = { a: 1, b: 2, c: 3 };
+
+for (const keys in obj) {
+  console.log(`obj.${keys} = ${obj[keys]}`);
+}
+
+// Logs:
+// "obj.a = 1"
+// "obj.b = 2"
+// "obj.c = 3"
+
+
+
+// for...of loop
+let arr = [3, 5, 7];
+arr.foo = "hello";
+
+console.log(arr); //[ 3, 5, 7, foo: 'hello' ]
+
+for(let keys in arr) {    
+  // for...in loop is iterates over object properties
+  console.log(keys);  // 0 1 2 foo
+}
+
+for(let value of arr) {   // for...of loop is iterates over iterable values
+  console.log(value);  // 3 5 7
+}
+
+
+//boolean 
+console.log(false||5>4||1>0); // true
+console.log(false||5||1);  // 5
+
