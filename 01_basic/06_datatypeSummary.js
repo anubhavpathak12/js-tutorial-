@@ -40,3 +40,31 @@ console.log(typeof myFavCricketer);  // object
 console.log(typeof myobjects);  // object
 
 console.log(typeof myfunction); // function
+
+//================================================================
+
+//Stack Memory(Primitives), Heap(Non-Primitives)
+
+let schoolName = "Harry";
+
+let nickName = schoolName;
+nickName = "Jerry"
+
+console.log(nickName);
+console.log(schoolName);
+
+//objects
+
+let users = {
+    email: "user@gmail.com",
+    upiId: "user@ybl"
+}
+
+let userTwo = users
+
+userTwo.email = "abc@gmail.com"
+
+console.log(users.email);
+console.log(userTwo.email);
+
+//here both email change which shows we directly working on reference variable which is on heap memory
