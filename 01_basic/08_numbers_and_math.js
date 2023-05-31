@@ -23,6 +23,7 @@ const hundreds = 10000000
 
 // ++++++++++++++++++++++++ MATHS +++++++++++++++++++++++++++++++++
 
+/*
 
 console.log(Math);
 console.log(Math.abs(-4)); //4
@@ -34,3 +35,15 @@ console.log(Math.sqrt(25)); //5
 
 console.log(Math.min(4, 3, 5, 6, 8, 22)); //3
 console.log(Math.max(4, 3, 5, 6, 8, 22)); //22
+
+*/
+
+console.log(Math.random());  // random function generate a random number between 0 and 1
+
+console.log((Math.random()*10) + 1)
+console.log((Math.random()*10) + 1)
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
