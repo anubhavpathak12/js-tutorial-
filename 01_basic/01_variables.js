@@ -9,7 +9,7 @@ let accountState;
 
 // accountId = 2 // not allowed becz this is declare with const keyword already before that's why we can't change it after declaration 
 
-accountEmail = "pathakanubhav@google.com"
+accountEmail = "abc@google.com"
 accountPassward = "213567"
 accountCity = "Silicon valley"
 
