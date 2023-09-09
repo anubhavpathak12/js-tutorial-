@@ -54,6 +54,9 @@ console.log("1" + "2") //-> 12
 console.log("1" + 2 + 2) //-> 122
 console.log(1 + 2 + "2") // it gives 32
 
+console.log("2" * 8) // -> 16
+console.log(8 * "2") // ->16
+
 console.log( ( (3 + 4) * 5) % 5) // 0
 
 let gameCounter = 103

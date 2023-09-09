@@ -27,7 +27,7 @@ console.log(null == 0); //->false
 console.log(null >= 0); //-> true
 
 //this result is because equality check == and comparisons > < >= <= work differently
-//comparison convert null to a number, treating it as 0. That's why case 3 is ture in above case 
+//comparison convert null to a number, treating it as 0. That's why case 3 is true in above case 
 
 console.log(undefined == 0); //false
 console.log(undefined > 0);  // false

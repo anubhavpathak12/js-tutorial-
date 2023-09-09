@@ -1,4 +1,8 @@
-//PRIMITIVE DATATYPE
+//how data is stored in or access from the memory based on that there are two characterisation of datatype
+// 1) Primitive, 2) Non - Primitive(Reference) dataType 
+
+
+//********************** PRIMITIVE DATATYPE **************************88
 
 //7-type -> string, number, boolean, null, undefined, BigInt, Symbol
 
@@ -13,7 +17,7 @@ console.log(id == anotherId);  // false
 
 const bigNumber = 345678123467890n;
 
-//NON-PRIMITIVE TYPE (Reference type)
+//************************* NON-PRIMITIVE TYPE (Reference type) ***************************8
 
 // Arrays, Objects, Function
 
