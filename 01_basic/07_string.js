@@ -28,16 +28,16 @@ const newString = gameName.substring(0, 4)
 console.log(newString);  //anub
 
 const anotherString = gameName.slice(-8, 4)
-console.log(anotherString); //anub
+console.log(anotherString); //ub
 
 
-const newStringOne = "    anubhav    " //to remove this extra space between these double quote
+const newStringOne = "    (❁´◡`❁)hello     " //to remove this extra space between these double quote
 console.log(newStringOne);
 console.log(newStringOne.trim());  // so to avoid this whitespaces or termination we use trim
 
 const url = "https://anubhav.com/anubhav%20pathak"
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('anubhav')) // give true-false that this string exist in this url or not
+console.log(url.includes('sumit')) // give true-false that this string exist in this url or not
 
 console.log(gameName.split('-')); //here it split the gameName value on the basis of '-'
