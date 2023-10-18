@@ -50,13 +50,34 @@ const users = [
     }
 ]
 
-console.log(users[1]);
+// console.log(users[1]);
 
-console.log();
+// console.log();
 
-console.log(myUser);
-console.log(Object.keys(myUser));
-console.log(Object.values(myUser));
-console.log(Object.entries(myUser));
+// console.log(myUser);
+// console.log(Object.keys(myUser));
+// console.log(Object.values(myUser));
+// console.log(Object.entries(myUser));
 
-console.log(myUser.hasOwnProperty('isLoggedIn'));
+// console.log(myUser.hasOwnProperty('isLoggedIn'));
+
+
+// DeStructuring 
+
+const Movie = {
+    MovieName: "MS DHONI",
+    ticketPrice: "999",
+    noOfticket: 1,
+}
+
+const {MovieName: MAHI} = Movie
+
+console.log(MAHI);
+
+// About JASON 
+// which is only javascript object notation
+
+// {
+//     "name": "Anubhav", 
+//      "class": 45,
+// }
