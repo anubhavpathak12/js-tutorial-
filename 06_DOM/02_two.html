@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <div class="day">MONDAY</div>
+        <div class="day">TUESDAY</div>
+        <div class="day">WEDNESDAY</div>
+        <div class="day">THURSADY</div>
+        <div class="day">FRIDAY</div>
+        <div class="day">SATURDAY</div>
+        <div class="day">SUNDAY</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children); // gives HTMLCollection of all days
+    // console.log(parent.children[1].innerHTML); 
+    
+    for (let index = 0; index < parent.children.length; index++) {
+        const element = parent.children[index].innerHTML;
+        // console.log(element, index);
+    }
+    parent.children[1].style.color = "green" 
+    // console.log(parent.firstElementChild);  // here we move from parent -> child
+    // console.log(parent.lastElementChild);
+    
+    //********* now going from child -> parent **********
+
+
+    const day1 = document.querySelector('.day')
+    // console.log(day1);
+    // console.log(day1.parentElement); // gives parent element
+    // console.log(day1.nextElementSibling); // gives next element after day1
+
+
+    //********* About Node list **********
+    console.log("NODES: ", parent.childNodes); // showing 15 node list
+    // because of comments or other line break
+
+</script>
+</html>

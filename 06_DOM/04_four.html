@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code ke Sath</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+
+<script>
+    function addingLanguage(languageName) {
+        const li = document.createElement('li');
+        li.innerHTML = `${languageName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addingLanguage("python")
+
+    
+    function addoptilanguage(langName) {
+        const li = document.createElement('li');
+        const addingTextNode = document.createTextNode(`${langName}`)
+        li.appendChild(addingTextNode)
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addoptilanguage("typeScript");
+    
+
+    // Edit
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang)
+    // secondLang.innerHTML = "Mojo"
+    const newli = document.createElement('li')
+    console.log(newli)
+
+    newli.textContent = "Mojo"
+    secondLang.replaceWith(newli)
+
+    //Edit
+    const firstLang = document.querySelector("li:first-Child")
+    firstLang.outerHTML = '<h1> * JavaScript</h1>'
+
+    //remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+    
+
+
+</script>
+</html>
